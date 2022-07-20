@@ -5,7 +5,7 @@
 </h1>
 
 <h1>
-  <a href="https://github.com/TIHeitorDS/Mario-Jump">Iniciar jogo!</a>
+  <a href="https://tiheitords.github.io/MarioJump/" target="_blank">Iniciar jogo!</a>
 </h1>
 
 ## Sobre
