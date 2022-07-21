@@ -1,5 +1,6 @@
 const mario = document.querySelector('.mario')
 const pipe = document.querySelector('.pipe')
+const reloadBtn = document.querySelector('.button')
 
 const jump = () => {
   mario.classList.add('jump')
@@ -25,9 +26,18 @@ const loop = setInterval(() => {
     mario.style.width = '7.5rem'
     mario.style.marginLeft = '5rem'
 
+    reloadBtn.style.opacity = 'initial'
+    reloadBtn.style.visibility = 'initial'
+
     clearInterval(loop)
   }
 }, 10)
 
 document.addEventListener('keydown', jump)
 document.addEventListener('touchstart', jump)
+window.addEventListener('load', resetGame => {
+  reloadBtn.onclick = function () {
+    location.reload(true)
+  }
+  return resetGame
+})
