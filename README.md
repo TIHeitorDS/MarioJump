@@ -5,7 +5,7 @@
 </h1>
 
 <h1>
-  <a href="https://tiheitords.github.io/MarioJump/" target="_blank">Iniciar jogo!</a>
+  <a href="https://tiheitords.github.io/MarioJump/">Iniciar jogo!</a>
 </h1>
 
 ## Sobre
@@ -22,4 +22,4 @@ O jogo foi feito com as seguintes tecnologias:
 
 ## Atenção!
 
-Caso você queira jogar por alguma dispositivo móvel, ative a opção **ROTAÇÃO/GIRAR TELA** para ter um melhor desempenho.
+Caso você queira jogar por algum dispositivo móvel, ative a opção **ROTAÇÃO / GIRAR TELA** para ter um melhor desempenho.
